@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export const CardsPage = () => {
     useEffect(() => {
         (async function () {
-            const response = await fetch("http://localhost:3000/cards", {
+            const response = await fetch("http://localhost:8088/cards", {
               method: "GET",
             });
     

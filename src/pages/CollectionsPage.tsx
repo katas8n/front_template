@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export const CollectionsPage = () => {
     useEffect(() => {
         (async function () {
-            const response = await fetch("http://localhost:3000/collections", {
+            const response = await fetch("http://localhost:8088/collections", {
               method: "GET",
             });
     

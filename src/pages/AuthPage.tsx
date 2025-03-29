@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export const AuthPage = () => {
     useEffect(() => {
         (async function () {
-            const response = await fetch("http://localhost:3000/", {
+            const response = await fetch("http://localhost:8088/", {
               method: "GET",
             });
     

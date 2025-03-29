@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export const ProfilePage = () => {
     useEffect(() => {
         (async function () {
-            const response = await fetch("http://localhost:3000/user", {
+            const response = await fetch("http://localhost:8088/user", {
               method: "GET",
             });
     
